@@ -7,6 +7,7 @@ ENV MYSQL_DATABASE=tienda_perritos
 ENV MYSQL_USER=alumno
 ENV MYSQL_PASSWORD=alumno123
 
+# Comentario test
 # Copiar el script de inicialización dentro de la imagen
 # Se ejecuta automáticamente la primera vez que se levante el contenedor Autor: Ignacio Pérez
 COPY init.sql /docker-entrypoint-initdb.d/
