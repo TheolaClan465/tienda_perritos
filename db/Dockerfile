@@ -12,5 +12,6 @@ ENV MYSQL_PASSWORD=alumno123
 # Se ejecuta automáticamente la primera vez que se levante el contenedor Autor: Ignacio Pérez
 COPY init.sql /docker-entrypoint-initdb.d/
 
+#COMENTARIO
 # Exponer el puerto de MySQL
 EXPOSE 3306
